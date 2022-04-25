@@ -1,5 +1,6 @@
-# Webpack configurado
+# To Do
 
-Para usar este repositorio, deberán ejecutar el comando de ```npm install```
 
-Pero esto lo veremos en la siguiente sección
+Para usar este repositorio, se debe ejecutar el comando `npm install`
+
+
