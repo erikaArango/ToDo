@@ -19,3 +19,5 @@ export const todoList = new TodoList();
 // setTimeout(()=>{
 //     localStorage.removeItem('mi-key');
 // },1500 );
+
+todoList.todos.forEach(crearTodoHtml);
