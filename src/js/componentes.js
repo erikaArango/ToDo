@@ -42,7 +42,6 @@ txtInput.addEventListener( 'keyup', ( event ) => {
         crearTodoHtml( nuevoTodo);
         txtInput.value = '';
     }
-
 }); 
 
 divTodoList.addEventListener('click', (event) =>{
@@ -51,7 +50,6 @@ divTodoList.addEventListener('click', (event) =>{
     const todoElemento   = event.target.parentElement.parentElement;
     const todoId         = todoElemento.getAttribute('data-id');
     
-
 
     console.log( nombreElemento );
 
@@ -64,9 +62,6 @@ divTodoList.addEventListener('click', (event) =>{
         todoList.eliminarTodo(todoId);
         divTodoList.removeChild(todoElemento);
     }
-
-   
-
 })
 
 btnBorrar.addEventListener('click', () => {
@@ -110,9 +105,6 @@ ulFiltros.addEventListener('click', (event) => {
                     elemento.classList.add('hidden');
                 }
             break;
-
         }
     }
-
-
 } )

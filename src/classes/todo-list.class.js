@@ -24,12 +24,11 @@ export class TodoList {
 
     marcarCompletado(id) {
         for( const todo of this.todos) {
-             if (todo.id == id) {
-                 todo.completado = !todo.completado;
-                 this.guardarLocalStorage();
-                 break;
-
-             }
+            if (todo.id == id) {
+            todo.completado = !todo.completado;
+            this.guardarLocalStorage();
+            break;
+           }
         }
 
 
