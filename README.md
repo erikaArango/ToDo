@@ -6,11 +6,13 @@ Esta es una aplicación de LISTA DE TAREAS en la cual puedes agregar aquellas co
 ![Pagina Inicial](https://github.com/erikaArango/Todo/blob/main/src/imgReadme/Captura%20de%20Pantalla%202022-05-02%20a%20la(s)%2006.36.39.png)
 
 
-[link al sitio web]( https://erikaarango.github.io/Todo/)
+[link al sitio web]( https://erikaarango.github.io/Todo/docs/index.html)
+
+
 
 Para usar este repositorio, se debe ejecutar el comando `npm install`
 
-Para construit el build, `npm run build`
+Para construir el build, `npm run build`
 
 Para levantar la aplicación en local `npm start`
 
